@@ -23,31 +23,31 @@ A Java-based console application for managing parcel deliveries with MySQL datab
 - **Eclipse** - IDE for development
 
 - # Validation & Security
-**1.Weight Validation: Ensures parcel weight is within 0.1kg to 20kg range**
-**2.Status Validation: Restricts status to three predefined values only.**
-**3.ID Uniqueness: Prevents duplicate parcel IDs in the system.**
-**4.Null Checks: Validates all required fields to prevent empty entries.**
-**5.Database Integrity: Maintains referential integrity through proper SQL operations.**
+- **1.Weight Validation: Ensures parcel weight is within 0.1kg to 20kg range**
+- **2.Status Validation: Restricts status to three predefined values only.**
+- **3.ID Uniqueness: Prevents duplicate parcel IDs in the system.**
+- **4.Null Checks: Validates all required fields to prevent empty entries.**
+- **5.Database Integrity: Maintains referential integrity through proper SQL operations.**
 
 # Database Schema
 
 
 
 # Step 1: Create Database
-**CREATE DATABASE parcelmanag;**
-**USE parcelmanag;**
+- **CREATE DATABASE parcelmanag;**
+- **USE parcelmanag;**
 
 # Step 2: Create table
 
-**CREATE TABLE parcel (**
-    **id INT PRIMARY KEY,**
-    **sender_name VARCHAR(100),**
-    **receiver_name VARCHAR(100),**
-    **weight_kg DECIMAL(5,2),**
-    **status VARCHAR(50),**
-    **source_addr VARCHAR(200),**
-    **dest_addr VARCHAR(200)**
-**);**
+- **CREATE TABLE parcel (**
+    - **id INT PRIMARY KEY,**
+    - **sender_name VARCHAR(100),**
+    - **receiver_name VARCHAR(100),**
+    - **weight_kg DECIMAL(5,2),**
+    - **status VARCHAR(50),**
+    - **source_addr VARCHAR(200),**
+    - **dest_addr VARCHAR(200)**
+- **);**
 
 # Step 3: Insert data
 
