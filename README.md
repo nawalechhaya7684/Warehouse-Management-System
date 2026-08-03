@@ -34,12 +34,12 @@ A Java-based console application for managing parcel deliveries with MySQL datab
 
 
 # Step 1: Create Database
-'''sql
+```sql
 - **CREATE DATABASE parcelmanag;**
 - **USE parcelmanag;**
 
 # Step 2: Create table
-'''sql
+```sql
 - **CREATE TABLE parcel (**
   **id INT PRIMARY KEY,**
   **sender_name VARCHAR(100),**
