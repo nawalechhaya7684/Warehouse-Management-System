@@ -22,6 +22,13 @@ A Java-based console application for managing parcel deliveries with MySQL datab
 - **JDBC** - Java Database Connectivity
 - **Eclipse** - IDE for development
 
+- # Validation & Security
+1.Weight Validation: Ensures parcel weight is within 0.1kg to 20kg range
+2.Status Validation: Restricts status to three predefined values only
+3.ID Uniqueness: Prevents duplicate parcel IDs in the system
+4.Null Checks: Validates all required fields to prevent empty entries
+5.Database Integrity: Maintains referential integrity through proper SQL operations
+
 # Database Schema
 
 
@@ -37,3 +44,16 @@ CREATE TABLE parcel (
     source_addr VARCHAR(200),
     dest_addr VARCHAR(200)
 );
+
+SHOW parcel;
+
+
+INSERT INTO parcel VALUES 
+(101, 'Rushika Pawar', 'Chhaya Nawale', 4.5, 'Pending', 'Sambhajinagar', 'Shrirampur'),
+(102, 'Arpita Ragir', 'Shivani Pawar', 5.6, 'Delivered', 'Sangamner', 'Kokangaon');
+
+
+SELECT * FROM parcel;
+
+
+
