@@ -1,4 +1,8 @@
-# Post Office Management System
+# Name:Chhaya krushna Nawale
+# College name: AVCOE
+
+
+# Project Title name:Post Office Management System
 
 A Java-based console application for managing parcel deliveries with MySQL database integration.
 
