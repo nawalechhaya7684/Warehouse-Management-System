@@ -51,15 +51,15 @@ A Java-based console application for managing parcel deliveries with MySQL datab
 - **);**
 
 # Step 3: Insert data
-
+```sql
 **INSERT INTO parcel VALUES**
 **(101, 'Rushika Pawar', 'Chhaya Nawale', 4.5, 'Pending', 'Sambhajinagar', 'Shrirampur'),**
 **(102, 'Arpita Ragir', 'Shivani Pawar', 5.6, 'Delivered', 'Sangamner', 'Kokangaon');**
 
-
+```sql
 **SELECT * FROM parcel;**
 
-
+```markdown
 │   POST OFFICE MANAGEMENT SYSTEM             │
 -------------------------------------------------┤
 │  1. Add new parcel                             │
