@@ -13,7 +13,7 @@ public class DBConnection {
                     + "?useSSL=false"
                     + "&allowPublicKeyRetrieval=true"
                     + "&serverTimezone=UTC",
-                     "root", "dbms2005");
+                     "root", "root2005");
             
         } catch (Exception e) {
             System.err.println("DB Error: " + e.getMessage());
