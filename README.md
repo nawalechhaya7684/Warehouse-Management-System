@@ -35,29 +35,35 @@ A Java-based console application for managing parcel deliveries with MySQL datab
 
 # Step 1: Create Database
 ```sql
-- **CREATE DATABASE parcelmanag;**
-- **USE parcelmanag;**
+CREATE DATABASE parcelmanag;
+```
+```sql
+USE parcelmanag;
+```
 
 # Step 2: Create table
 ```sql
-- **CREATE TABLE parcel (**
-  **id INT PRIMARY KEY,**
-  **sender_name VARCHAR(100),**
-  **receiver_name VARCHAR(100),**
-  **weight_kg DECIMAL(5,2),**
-    - **status VARCHAR(50),**
-    - **source_addr VARCHAR(200),**
-    - **dest_addr VARCHAR(200)**
-- **);**
+CREATE TABLE parcel (
+id INT PRIMARY KEY,
+sender_name VARCHAR(100),
+receiver_name VARCHAR(100),
+weight_kg DECIMAL(5,2),
+status VARCHAR(50),
+source_addr VARCHAR(200),
+dest_addr VARCHAR(200)
+);
+```
 
 # Step 3: Insert data
 ```sql
-**INSERT INTO parcel VALUES**
-**(101, 'Rushika Pawar', 'Chhaya Nawale', 4.5, 'Pending', 'Sambhajinagar', 'Shrirampur'),**
-**(102, 'Arpita Ragir', 'Shivani Pawar', 5.6, 'Delivered', 'Sangamner', 'Kokangaon');**
+INSERT INTO parcel VALUES
+(101, 'Rushika Pawar', 'Chhaya Nawale', 4.5, 'Pending', 'Sambhajinagar', 'Shrirampur'),
+(102, 'Arpita Ragir', 'Shivani Pawar', 5.6, 'Delivered', 'Sangamner', 'Kokangaon');
+```
 
 ```sql
-**SELECT * FROM parcel;**
+SELECT * FROM parcel;
+```
 
 ```markdown
 │   POST OFFICE MANAGEMENT SYSTEM             │
@@ -70,13 +76,14 @@ A Java-based console application for managing parcel deliveries with MySQL datab
 │  6. Exit                                       │
 ┤
 │  Choice:                                       │
+```
 
 # Future Enhancement
-**1.Search by sender/receiver name.**
-**2.Add phone numbers to parcels.**
-**3.Export data to CSV.**
-**4.Add delivery date field.**
-**5.Activity logging.**
+- 1.Search by sender/receiver name.
+- 2.Add phone numbers to parcels.
+- 3.Export data to CSV.
+- 4.Add delivery date field.
+- 5.Activity logging.
 
 
 
