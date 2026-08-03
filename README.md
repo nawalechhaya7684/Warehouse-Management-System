@@ -33,6 +33,7 @@ A Java-based console application for managing parcel deliveries with MySQL datab
 
 
 CREATE DATABASE parcelmanag;
+
 USE parcelmanag;
 
 CREATE TABLE parcel (
@@ -54,6 +55,13 @@ INSERT INTO parcel VALUES
 
 
 SELECT * FROM parcel;
+
+# Future Enhancement
+1.Search by sender/receiver name
+2.Add phone numbers to parcels
+3.Export data to CSV
+4.Add delivery date field
+5.Activity logging
 
 
 
