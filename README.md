@@ -32,9 +32,12 @@ A Java-based console application for managing parcel deliveries with MySQL datab
 # Database Schema
 
 
-CREATE DATABASE parcelmanag;
 
+# Step 1: Create Database
+CREATE DATABASE parcelmanag;
 USE parcelmanag;
+
+# Step 2: Create table
 
 CREATE TABLE parcel (
     id INT PRIMARY KEY,
@@ -46,8 +49,7 @@ CREATE TABLE parcel (
     dest_addr VARCHAR(200)
 );
 
-SHOW parcel;
-
+# Step 3: Insert data
 
 INSERT INTO parcel VALUES 
 (101, 'Rushika Pawar', 'Chhaya Nawale', 4.5, 'Pending', 'Sambhajinagar', 'Shrirampur'),
@@ -57,7 +59,7 @@ INSERT INTO parcel VALUES
 SELECT * FROM parcel;
 
 ┌────────────────────────────────────────────────┐
-│  📦 POST OFFICE MANAGEMENT SYSTEM             │
+│   POST OFFICE MANAGEMENT SYSTEM             │
 ├────────────────────────────────────────────────┤
 │  1. Add new parcel                             │
 │  2. Find a parcel                              │
