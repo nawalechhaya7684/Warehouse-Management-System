@@ -56,6 +56,19 @@ INSERT INTO parcel VALUES
 
 SELECT * FROM parcel;
 
+┌────────────────────────────────────────────────┐
+│  📦 POST OFFICE MANAGEMENT SYSTEM             │
+├────────────────────────────────────────────────┤
+│  1. Add new parcel                             │
+│  2. Find a parcel                              │
+│  3. Show all records                           │
+│  4. Update Status                              │
+│  5. Delete a record                            │
+│  6. Exit                                       │
+├────────────────────────────────────────────────┤
+│  Choice:                                       │
+└────────────────────────────────────────────────┘
+
 # Future Enhancement
 1.Search by sender/receiver name
 2.Add phone numbers to parcels
