@@ -40,10 +40,10 @@ A Java-based console application for managing parcel deliveries with MySQL datab
 # Step 2: Create table
 
 - **CREATE TABLE parcel (**
-    - **id INT PRIMARY KEY,**
-    - **sender_name VARCHAR(100),**
-    - **receiver_name VARCHAR(100),**
-    - **weight_kg DECIMAL(5,2),**
+  **id INT PRIMARY KEY,**
+  **sender_name VARCHAR(100),**
+  **receiver_name VARCHAR(100),**
+  **weight_kg DECIMAL(5,2),**
     - **status VARCHAR(50),**
     - **source_addr VARCHAR(200),**
     - **dest_addr VARCHAR(200)**
