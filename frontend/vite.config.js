@@ -9,7 +9,7 @@ export default defineConfig({
     // Send /api/* to FastAPI, so the browser only ever talks to one address
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'http://localhost:8080',
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },

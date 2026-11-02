@@ -5,7 +5,7 @@ React (Vite) frontend + FastAPI backend, SQLite through Python's built-in `sqlit
 
 ## Run it
 
-Backend (http://localhost:8000, API docs at /docs):
+Backend (http://localhost:8080, API docs at /docs):
 ```bash
 cd backend
 python3 -m venv .venv && source .venv/bin/activate
